@@ -1,0 +1,42 @@
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  
+    > {
+      li {
+        display: inline-block;
+  
+        + li:before {
+          padding: 0 5px;
+          color: #cccccc;
+          content: "/Â ";
+        }
+      }
+  
+      .active {
+        color: #999999;
+      }
+    }
+  }
+
+
+  /**
+   * custom Breadcrumb
+   */
+  
+   ul.breadcrumb {
+    border-radius: 0;
+    background-color: #a4a1a3;
+    border: 1px solid #929292;
+    padding: 8px 30px;
+  
+    a {
+      color: #000;
+      letter-spacing: 1px;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+  }
